@@ -1,0 +1,17 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    // padding: 3% 5%;
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 15%;
+
+        .link {
+            color: red;
+        }
+    }
+}

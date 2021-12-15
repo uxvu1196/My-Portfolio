@@ -1,6 +1,7 @@
 import React from 'react'
 import { Navbar } from '../components/Navbar'
 import "../assets/scss/home.scss"
+import clouds from "../assets/img/clouds.jpg"
 
 
 export const Home = () => {
@@ -11,10 +12,7 @@ export const Home = () => {
             </div>
             <h1 className="gradient">Hey, welcome to my Portfolio.</h1>
 
-            <div>
-                <img src="/img/cloud.jpg" alt="logo" />
-            </div>
-
+            <img src={clouds} alt="" />
         </div>
     )
 }
